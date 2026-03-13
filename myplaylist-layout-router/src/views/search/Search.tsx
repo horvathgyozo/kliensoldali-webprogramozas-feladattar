@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 export function Search() {
   return (
     <div className="ui container">

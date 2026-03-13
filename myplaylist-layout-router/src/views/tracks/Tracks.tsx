@@ -1,9 +1,8 @@
-/* eslint-disable react/no-unescaped-entities */
 export function Tracks() {
   return (
     <>
       <div className="ui container">
-        <button href="#" className="ui right floated green button" id="newModal">
+        <button className="ui right floated green button" id="newModal">
           <i className="plus icon"></i>
           New track
         </button>
@@ -31,7 +30,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
@@ -60,7 +63,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
@@ -89,7 +96,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
@@ -118,7 +129,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
@@ -147,7 +162,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
@@ -176,7 +195,11 @@ export function Tracks() {
                     <div className="header">Add to playlist</div>
                     <div className="ui search icon input">
                       <i className="search icon"></i>
-                      <input type="text" name="search" placeholder="Search playlists..." />
+                      <input
+                        type="text"
+                        name="search"
+                        placeholder="Search playlists..."
+                      />
                     </div>
                     <div className="item">Heavy Metal</div>
                     <div className="item">Classics</div>
