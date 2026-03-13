@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const Field = ({ label, placeholder, name }) => {
   return (
     <div className="field">
@@ -29,13 +28,29 @@ export function TrackForm() {
           <div className="ui form">
             <div className="three fields">
               <Field label="Author" placeholder="John Williams" name="artist" />
-              <Field label="Track name" placeholder="Imperial March" name="title" />
+              <Field
+                label="Track name"
+                placeholder="Imperial March"
+                name="title"
+              />
               <Field label="Length" placeholder="3:44" name="length" />
             </div>
             <div className="three fields">
-              <Field label="Spotify URL" placeholder="https://" name="spotifyURL" />
-              <Field label="Lyrics URL" placeholder="https://" name="lyricsURL" />
-              <Field label="Guitar tab URL" placeholder="https://" name="chordsURL" />
+              <Field
+                label="Spotify URL"
+                placeholder="https://"
+                name="spotifyURL"
+              />
+              <Field
+                label="Lyrics URL"
+                placeholder="https://"
+                name="lyricsURL"
+              />
+              <Field
+                label="Guitar tab URL"
+                placeholder="https://"
+                name="chordsURL"
+              />
             </div>
           </div>
         </div>

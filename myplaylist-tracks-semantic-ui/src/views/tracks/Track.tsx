@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 export function Track({ track }) {
   return (
     <tr>

@@ -8,7 +8,7 @@ export function Tracks() {
   return (
     <>
       <div className="ui container">
-        <button href="#" className="ui right floated green button" id="newModal">
+        <button className="ui right floated green button" id="newModal">
           <i className="plus icon"></i>
           New track
         </button>
